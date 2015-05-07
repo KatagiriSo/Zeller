@@ -13,6 +13,9 @@
 		327E01551AFAF0630080BD6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327E01541AFAF0630080BD6B /* Images.xcassets */; };
 		327E01581AFAF0630080BD6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 327E01561AFAF0630080BD6B /* LaunchScreen.xib */; };
 		327E01641AFAF0630080BD6B /* ZellersCongreunceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327E01631AFAF0630080BD6B /* ZellersCongreunceTests.swift */; };
+		327E016E1AFAF07C0080BD6B /* Zeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327E016D1AFAF07C0080BD6B /* Zeller.swift */; };
+		327E01701AFB0AC00080BD6B /* LINCENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 327E016F1AFB0AC00080BD6B /* LINCENSE.txt */; };
+		327E01721AFB0B200080BD6B /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 327E01711AFB0B200080BD6B /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		327E015D1AFAF0630080BD6B /* ZellersCongreunceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZellersCongreunceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		327E01621AFAF0630080BD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327E01631AFAF0630080BD6B /* ZellersCongreunceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZellersCongreunceTests.swift; sourceTree = "<group>"; };
+		327E016D1AFAF07C0080BD6B /* Zeller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zeller.swift; sourceTree = "<group>"; };
+		327E016F1AFB0AC00080BD6B /* LINCENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LINCENSE.txt; sourceTree = "<group>"; };
+		327E01711AFB0B200080BD6B /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +85,13 @@
 			children = (
 				327E014D1AFAF0630080BD6B /* AppDelegate.swift */,
 				327E014F1AFAF0630080BD6B /* ViewController.swift */,
+				327E016D1AFAF07C0080BD6B /* Zeller.swift */,
 				327E01511AFAF0630080BD6B /* Main.storyboard */,
 				327E01541AFAF0630080BD6B /* Images.xcassets */,
 				327E01561AFAF0630080BD6B /* LaunchScreen.xib */,
 				327E014B1AFAF0630080BD6B /* Supporting Files */,
+				327E016F1AFB0AC00080BD6B /* LINCENSE.txt */,
+				327E01711AFB0B200080BD6B /* ReadMe.txt */,
 			);
 			path = ZellersCongreunce;
 			sourceTree = "<group>";
@@ -195,6 +204,8 @@
 				327E01531AFAF0630080BD6B /* Main.storyboard in Resources */,
 				327E01581AFAF0630080BD6B /* LaunchScreen.xib in Resources */,
 				327E01551AFAF0630080BD6B /* Images.xcassets in Resources */,
+				327E01721AFB0B200080BD6B /* ReadMe.txt in Resources */,
+				327E01701AFB0AC00080BD6B /* LINCENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +225,7 @@
 			files = (
 				327E01501AFAF0630080BD6B /* ViewController.swift in Sources */,
 				327E014E1AFAF0630080BD6B /* AppDelegate.swift in Sources */,
+				327E016E1AFAF07C0080BD6B /* Zeller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
